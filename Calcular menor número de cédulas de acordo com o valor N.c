@@ -14,7 +14,7 @@ int N, nota50 = 0,nota100 = 0, nota5 = 0, nota1 = 0, nota10 = 0 ;
 
     while (N != 0){
         
-//Para que o número de notas seja o menor possivel precisamos criar parâmetros para dar preferência ao maior valor de nota possível 
+//Para que o número de cédulas seja o menor possivel precisamos criar parâmetros para dar preferência ao maior valor de cédula possível 
 //É importante perceber que para cada if temos duas operações.
 //Sendo a adição de alguma nota(nota++) e a diminuição do valor do N restante de acordo com a nota add (N -= nota adicionada)
     if(N>=100)
